@@ -28,6 +28,16 @@ Solucionados todos estos problemas, el modelo finalmente comenzó a entrenarse p
 
 ![image](https://github.com/user-attachments/assets/b4b427f1-bb7f-4132-a8d0-3a471f04fff5)
 
+
+El siguiente conjunto de gráficas muestran el desarrollo del entrenamiento para el modelo seleccionado.
+
+
+![results](https://github.com/user-attachments/assets/03d74a56-0497-4ab2-b57c-a1d73abfcde7)
+
+
+La gráficas muestran un entrenamiento relativamente exitoso: las pérdidas de entrenamiento y validación disminuyen constantemente, mientras que las métricas de precisión, recall, y mAP aumentan. Esto indica que el modelo mejora en detección y clasificación de objetos a medida que avanza el entrenamiento, logrando buenos resultados de precisión y generalización.
+
+
 # Aplicación
 Para el seguimiento de coches y personas, hago uso del modelo YOLOv11, mientras que para el seguimiento de matrículas utilizo el modelo entrenado específicamente para ese propósito. Empleando para ello en ambos casos la función model.track().
 
@@ -48,7 +58,7 @@ Para contar el total de cada clase simplemente cada vez que se detecta un nuevo 
 ![image](https://github.com/user-attachments/assets/e810b7f1-f5b1-41d9-8f0a-8139b4d96904)
 
 
-Para generar un video volcamos cada fotograma de salida del analisis del modelo en la variable out_video generada con la siguiente función de openCV
+Para generar un video volcamos cada fotograma de salida del analisis del modelo en la variable out_video generada con la siguiente función de openCV. Este seria el vido del resultado final: https://drive.google.com/file/d/1v_Ogtd6m8ip9i-oV1-iMuSDGqoKJfoO9/view?usp=sharing
 
 
 ![image](https://github.com/user-attachments/assets/05354c73-e03f-4a52-a491-ff553712bfd0)
