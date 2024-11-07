@@ -42,7 +42,7 @@ En la siguiente imagen se puede apreciar como efectivamente las matrículas las 
 ![image](https://github.com/user-attachments/assets/7c2f8f3b-3d07-402c-bba9-e54f72005c14)
 
 
-Para contar el total de cada clase simplemente cada vez que se detecta un nuevo objeto de cada tipo se suma a su respectivo conteo, el problema es que tanto mi modelo como el modelo de yolov11 detecta varias veces el mismo objeto asumiendo que es un objeto diferente lo que produce que la cuenta sea un bastante erronea al alza.
+Para contar el total de cada clase simplemente cada vez que se detecta un nuevo objeto de cada tipo se suma a su respectivo conteo, el problema es que tanto mi modelo como el modelo de yolov11 detecta varias veces el mismo objeto asumiendo que es un objeto diferente lo que produce que la cuenta sea bastante erronea al alza.
 
 
 ![image](https://github.com/user-attachments/assets/e810b7f1-f5b1-41d9-8f0a-8139b4d96904)
