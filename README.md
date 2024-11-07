@@ -16,6 +16,7 @@ Para la entrega de esta práctica, la tarea consiste en desarrollar un prototipo
 <fotograma, tipo_objeto, confianza, identificador_tracking, x1, y1, x2, y2, matrícula_en_su_caso, confianza, mx1,my1,mx2,my2, texto_matricula>
 
 
+
 Para el desarrollo de esta práctica en primer lugar he seleccionado el conjunto de datos a entrenar por el modelo yolov11, este corresponde a roboflow y se puede encontrar en el siguiente enlace https://universe.roboflow.com/projectyolo-qvrgr/license_plate_segmentation/browse?queryText=&pageSize=50&startingIndex=50&browseQuery=true. Una vez descargado el dataset no ha sido necesario realizar el etiquetado de las imagenes para poder realizar el entrenamiento puesto que estas ya han sido descargadas en un formato que permita ser entrenado por yolov11 con su correspondiente etiquetado, separación en conjunto de datos de entrenamiento, validación, test y su archivo con extensión yaml.
 
 
