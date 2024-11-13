@@ -1,4 +1,5 @@
 # VC_P4
+Autor: Carlos Tomás Quevedo Olivares
 # Entrega
 Para la entrega de esta práctica, la tarea consiste en desarrollar un prototipo que procese uno (vídeo de ejemplo proporcionado) o varios vídeos (incluyendo vídeos de cosecha propia):
 
